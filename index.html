@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eternal Luck - 幸运四叶草拉伸手链</title>
+    <style>
+        body { font-family: "PingFang SC", "Microsoft YaHei", sans-serif; margin: 0; padding: 0; background-color: #f9f9f9; color: #333; line-height: 1.6; }
+        header { background-color: white; padding: 1rem; border-bottom: 1px solid #eee; text-align: center; position: sticky; top: 0; z-index: 100; }
+        .logo { font-size: 1.4rem; font-weight: bold; text-decoration: none; color: #222; letter-spacing: 1px; }
+        .hero { text-align: center; background-color: #fff; padding: 10px; }
+        .hero img { max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+        .container { max-width: 600px; margin: 0 auto; padding: 20px; background: #fff; }
+        .price-tag { font-size: 2.2rem; color: #d4a373; font-weight: bold; margin: 10px 0; }
+        .old-price { font-size: 1.2rem; color: #999; text-decoration: line-through; margin-left: 10px; }
+        .badge { display: inline-block; background: #e9ecef; padding: 4px 12px; border-radius: 20px; font-size: 0.8rem; margin-bottom: 10px; }
+        .options-box { border: 1px solid #eee; padding: 20px; border-radius: 10px; margin: 20px 0; background: #fcfcfc; }
+        select { width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px; font-size: 1rem; margin-top: 10px; }
+        .btn-buy { width: 100%; background: none; border: none; cursor: pointer; margin-top: 15px; }
+        .trust-icons { display: flex; justify-content: space-around; margin-top: 20px; font-size: 0.7rem; color: #666; text-align: center; }
+        footer { padding: 30px; text-align: center; font-size: 0.8rem; color: #999; }
+    </style>
+</head>
+<body>
+
+    <header><a href=" " class="logo">TRADE-SUPPLY</a ></header>
+
+    <div class="hero">
+        <!-- 替换为你自己的主图链接 -->
+        < img src="https://via.placeholder.com/600x600?text=Four+Leaf+Clover+Bracelet" alt="Product Image">
+    </div>
+
+    <div class="container">
+        <span class="badge">限时包邮 (Global Free Shipping)</span>
+        <h1 style="font-size: 1.5rem; margin: 10px 0;">永恒幸运：水晶四叶草调节拉伸手链</h1>
+        <div class="price-tag">$19.99 <span class="old-price">$39.99</span></div>
+        
+        <p>✨ <strong>优质材质：</strong> 18K镀金防过敏合金，镶嵌5A级高亮锆石。</p >
+        <p>📏 <strong>无须测量：</strong> 独家拉伸扣设计，任何手围都能完美佩戴。</p >
+
+        <div class="options-box">
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_xclick">
+                <input type="hidden" name="business" value="jiangpenghong2003@gmail.com">
+                <input type="hidden" name="item_name" value="Eternal Luck Clover Bracelet">
+                <input type="hidden" name="amount" value="19.99">
+                <input type="hidden" name="currency_code" value="USD">
+                <input type="hidden" name="return" value="http://trade-supply.cc">
+                
+                <label>选择您的幸运配色 (Select Color):</label>
+                <!-- 这里添加了颜色选项，PayPal后台会显示 os0 参数 -->
+                <input type="hidden" name="on0" value="Color">
+                <select name="os0">
+                    <option value="Classic White">经典白 (Classic White)</option>
+                    <option value="Midnight Blue">午夜蓝 (Midnight Blue)</option>
+                    <option value="Sakura Pink">樱花粉 (Sakura Pink)</option>
+                    <option value="Ruby Red">宝石红 (Ruby Red)</option>
+                </select>
+
+                <input type="image" class="btn-buy" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" name="submit" alt="PayPal">
+            </form>
+        </div>
+
+        <div class="trust-icons">
+            <div>🚚<br>快速物流</div>
+            <div>🔒<br>安全支付</div>
+            <div>⭐<br>品质保证</div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 trade-supply.cc | Contact: contact@trade-supply.cc
+    </footer>
+
+</body>
+</html>
